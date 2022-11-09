@@ -34,7 +34,7 @@ window.onload = function(){
         divTuna.remove();
         divBackground.remove();
         $("#apps").toggle();
-    }, 2500);
+    }, 3500);
 }
 
 function MouseOver(index){
