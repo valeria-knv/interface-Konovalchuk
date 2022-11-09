@@ -22,8 +22,12 @@ body{
     border-bottom: thick double white;
 }
 .container:hover{
-    background-color: rgba(255, 255, 255, 0.744);
-    box-shadow: 0 0 20px rgba(182, 145, 24, 0.527);
+    background-color: rgba(255, 255, 255, 0.993);
+    box-shadow: 0 0 30px rgba(182, 145, 24, 0.527);
+}
+.container:active{
+    background-color: rgba(255, 255, 255, 0.993);
+    box-shadow: 0 0 30px rgba(255, 35, 31, 0.527);
 }
 img{
     width: 85%;
@@ -126,7 +130,7 @@ img{
         justify-content: center;
         text-align: center;
         font-size: 3.5vmin;
-        background-color: rgba(255, 255, 255, 0.542);
+        background-color: rgba(255, 255, 255, 0.841);
         border-radius: 3vmin;
         margin: 2vmin 3vmin 0;
         padding: 2vmin;
@@ -146,7 +150,7 @@ img{
         justify-content: center;
         text-align: center;
         font-size: 4vmin;
-        background-color: rgba(255, 255, 255, 0.542);
+        background-color: rgba(255, 255, 255, 0.726);
         border-radius: 3vmin;
         margin: 2vmin auto 0;
         padding: 2vmin;
